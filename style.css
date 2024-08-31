@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #b6dddd;
+}
+
+.input-text {
+    padding: 10px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.btn-agregar {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2d7272;
+}
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.lista li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #b46a6a;
+    border: 1px solid #e2bbbb;
+    position: relative;
+}
+
+.lista li:hover {
+    background-color: #706767;
+}
+
+.btn-eliminar {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    font-size: 12px;
+}
